@@ -1,9 +1,9 @@
 let products=[
-    {name:"brick", sku:"sku-981", Price: 4.99,Inventory:"90",catagory:"materials"},
-    {name:"cat", sku:"sku-872", Price:60.00, Inventory:"25",catagory:"pet"},                       
-    {name:"table", sku:"sku-132", Price:849.99, Inventory:"40", catagory:"furnature"},
-    {name:"wonton", sku:"sku-901", Price:16.99, Inventory:"70", catagory:"food"},
-    {name:"seeds", sku:"sku-343", Price:3.99, Inventory:"100",catagory:"farming"}
+    {name:"brick", sku:"sku-981", Price: .99,Inventory:"90",catagory:"materials"},
+    {name:"cat", sku:"sku-872", Price:6, Inventory:"25",catagory:"pet"},                       
+    {name:"table", sku:"sku-132", Price:8, Inventory:"40", catagory:"furnature"},
+    {name:"wonton", sku:"sku-901", Price:16, Inventory:"70", catagory:"food"},
+    {name:"seeds", sku:"sku-343", Price:4, Inventory:"100",catagory:"farming"}
 ]
 console.log(products);
 
