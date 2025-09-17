@@ -10,14 +10,14 @@ console.log(products);
 for(const product in products){
 let discount=0;
 {switch (product.catagory){
-    case 'crafts':
+    case 'materials':
         product.Price*=.8
     break;
-    case 'cars':
+    case 'pet':
         product.Price*=.85
     break;
-    case 'electronics':
-    case 'materials':   
+    case 'furnature':
+    case 'food':   
         product.Price*=.9
     break;
     default:
