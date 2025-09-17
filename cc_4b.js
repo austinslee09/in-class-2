@@ -23,6 +23,6 @@ switch(product.catagory){
                 default:
                     discount=0;
 }
-letpromoPrice= product.price-(product.price*discount);
+let promoPrice= product.price-(product.price*discount);
 product.promoPrice=promoPrice.toFixed(2);
 }
