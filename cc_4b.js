@@ -26,3 +26,4 @@ switch(product.catagory){
 let promoPrice= product.price-(product.price*discount);
 product.promoPrice=promoPrice.toFixed(2);
 }
+console.log(products)
