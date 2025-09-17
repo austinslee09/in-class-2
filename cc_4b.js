@@ -7,10 +7,23 @@ let items=[
 ]
 console.log(items);
 
-
-{switch (items.catagory){
+for(const item in items){
+let discount=0;
+switch (item.catagory){
     case 'materials':
-        items["promoPrice"]*=.8
+        discount=.2
         break;
+        case"pet":
+        case "furnature":
+            discount=.1
+            break;
+            case "wonton"
+            discount=.15
+            break;
+        default
+        discount=0;
 }
+promoPrice=price*(1-discount)
+item.promoPrice=promoPrice;
 }
+console.log(items)
