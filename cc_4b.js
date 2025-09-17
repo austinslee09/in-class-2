@@ -11,14 +11,14 @@ for(const product in products){
 let discount=0;
 switch (product.catagory){
     case "materials":
-        discount=.2;
+        discount*=.2;
         break;
         case"pet":
         case "furnature":
-            discount=.1;
+            discount*=.1;
             break;
             case "wonton":
-            discount =.15;
+            discount*=.15;
             break;
         default:
         discount=0;
