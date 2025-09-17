@@ -5,7 +5,7 @@ let products=[
     {name:"wonton", sku:"sku-901", Price:16.99, Inventory:"70", catagory:"food"},
     {name:"seeds", sku:"sku-343", Price:3.99, Inventory:"100",catagory:"farming"}
 ]
-console.log(items);
+console.log(products);
 
 for(const product in products){
 let discount=0;
@@ -24,6 +24,6 @@ switch (product.catagory){
         discount=0;
 }
 promoPrice=price*(1-discount)
-item.promoPrice=promoPrice;
+product.promoPrice=promoPrice;
 }
-console.log(items)
+console.log(products)
