@@ -9,21 +9,18 @@ console.log(products);
 
 for(const product in products){
 let discount=0;
-switch (product.catagory){
-    case "materials":
-        discount*=.2;
-        break;
-        case"pet":
-        case "furnature":
-            discount*=.1;
-            break;
-            case "wonton":
-            discount*=.15;
-            break;
-        default:
-        discount=0;
+{switch (product.catagory){
+    case 'crafts':
+        product.Price*=.8
+    break;
+    case 'cars':
+        product.Price*=.85
+    break;
+    case 'electronics':
+    case 'materials':   
+        product.Price*=.9
+    break;
+    default:
+        discount="no discount"
 }
-let promoPrice=products.price*(1-discount)
-product.promoPrice=promoPrice;
-}
-console.log(products)
+console.log('$[discounts] of items')}
