@@ -23,7 +23,7 @@ switch (product.catagory){
         default:
         discount=0;
 }
-let promoPrice=product.price*(1-discount)
+let promoPrice=products.price*(1-discount)
 product.promoPrice=promoPrice;
 }
 console.log(products)
