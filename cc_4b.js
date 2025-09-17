@@ -1,4 +1,4 @@
-let items=[
+let products=[
     {name:"brick", sku:"sku-981", Price: 4.99,Inventory:"90",catagory:"materials"},
     {name:"cat", sku:"sku-872", Price:60.00, Inventory:"25",catagory:"pet"},                       
     {name:"table", sku:"sku-132", Price:849.99, Inventory:"40", catagory:"furnature"},
@@ -7,20 +7,20 @@ let items=[
 ]
 console.log(items);
 
-for(const item in items){
+for(const product in products){
 let discount=0;
-switch (item.catagory){
-    case 'materials':
-        discount=.2
+switch (product.catagory){
+    case "materials":
+        discount=.2;
         break;
         case"pet":
         case "furnature":
-            discount=.1
+            discount=.1;
             break;
-            case "wonton"
-            discount=.15
+            case "wonton":
+            discount =.15;
             break;
-        default
+        default:
         discount=0;
 }
 promoPrice=price*(1-discount)
