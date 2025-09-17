@@ -24,3 +24,4 @@ let discount=0;
         discount="no discount"
 }
 console.log('$[discounts] of items')}
+console.log(products);}
